@@ -31,6 +31,7 @@ W przypadku użycia nieznanej karty system odmawia dostępu i zwiększa licznik 
 
 Projekt pokazuje praktyczne zastosowanie systemów wbudowanych w kontekście prostego systemu kontroli dostępu.
 
+[Zobacz prezentację wideo projektu na YouTube](https://youtu.be/Zb_5l8w_KnY)
 ---
 
 ## Cel edukacyjny
