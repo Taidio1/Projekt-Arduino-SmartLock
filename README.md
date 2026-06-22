@@ -319,3 +319,4 @@ Projekt wykonany na potrzeby przedmiotu **Systemy wbudowane**.
 
 ## Licencja
 Projekt może zostać udostępniony jako projekt edukacyjny.
+Licencja Creative Commons Zero (CC0)
