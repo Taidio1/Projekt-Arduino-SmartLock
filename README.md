@@ -1,8 +1,8 @@
-# SmartSafe Guardian – inteligentny sejf Arduino
+# Smart Lock – inteligentny zamek Arduino
 
-**SmartSafe Guardian** to edukacyjny projekt zrealizowany w ramach przedmiotu **Systemy wbudowane** na uczelni **Uniwersytet Vizja w Warszawie**.
+**Smart Lock** to edukacyjny projekt zrealizowany w ramach przedmiotu **Systemy wbudowane** na uczelni **Uniwersytet Vizja w Warszawie**.
 
-Projekt przedstawia prototyp inteligentnego sejfu / zamka elektronicznego opartego na platformie **Arduino UNO**. System wykorzystuje technologię **RFID** do autoryzacji użytkownika, **serwomechanizm** jako mechaniczny zamek, **buzzer aktywny** oraz **czerwoną diodę LED** jako sygnalizację alarmową. Dodatkowo projekt współpracuje z aplikacją okienkową stworzoną w **Processing**, która pełni funkcję prostego panelu Smart Home.
+Projekt przedstawia prototyp inteligentnego zamka elektronicznego opartego na platformie **Arduino UNO**. System wykorzystuje technologię **RFID** do autoryzacji użytkownika, **serwomechanizm** jako mechaniczny zamek, **buzzer aktywny** oraz **czerwoną diodę LED** jako sygnalizację alarmową. Dodatkowo projekt współpracuje z aplikacją okienkową stworzoną w **Processing**, która pełni funkcję prostego panelu Smart Home.
 
 Celem projektu jest pokazanie, jak połączyć elektronikę, programowanie mikrokontrolera oraz komunikację z aplikacją komputerową w jeden działający system wbudowany.
 
@@ -25,7 +25,7 @@ Celem projektu jest pokazanie, jak połączyć elektronikę, programowanie mikro
 
 ## Opis projektu
 
-SmartSafe Guardian to prototyp inteligentnego sejfu, który można otworzyć tylko za pomocą autoryzowanej karty RFID lub breloka RFID. Po przyłożeniu poprawnej karty Arduino rozpoznaje użytkownika, odblokowuje mechanizm zamka za pomocą serwomechanizmu i wysyła informację o zdarzeniu do aplikacji Processing.
+Smart Lock to prototyp inteligentnego zamka, który można otworzyć tylko za pomocą autoryzowanej karty RFID lub breloka RFID. Po przyłożeniu poprawnej karty Arduino rozpoznaje użytkownika, odblokowuje mechanizm zamka za pomocą serwomechanizmu i wysyła informację o zdarzeniu do aplikacji Processing.
 
 W przypadku użycia nieznanej karty system odmawia dostępu i zwiększa licznik błędnych prób. Po kilku nieudanych próbach może zostać uruchomiony alarm fizyczny, czyli buzzer oraz czerwona dioda LED.
 
@@ -118,7 +118,7 @@ Jeżeli użytkownik przyłoży autoryzowaną kartę:
 3. System uznaje dostęp za poprawny.
 4. Serwomechanizm obraca się do pozycji otwartej.
 5. Do aplikacji Processing wysyłany jest komunikat o poprawnym otwarciu.
-6. Po kilku sekundach sejf zostaje automatycznie zamknięty.
+6. Po kilku sekundach zamek zostaje automatycznie zamknięty.
 
 Jeżeli użytkownik przyłoży nieznaną kartę:
 
@@ -180,18 +180,20 @@ SmartSafe-Guardian/
 ├── README.md
 │
 ├── arduino/
-│   └── SmartSafeGuardian.ino
+│   └── Arduino_Kod.ino
+│   └── Arduino_Kod.txt
 │
 ├── processing/
-│   └── SmartSafeGuardianDashboard.pde
+│   └── Dashboard_Kod.pde
+│   └── Dashboard_Kod.txt
 │
 ├── docs/
 │   ├── components.md
-│   └── project-description.md
+│   └── instrukcja_wykonania.md
 │
 ├── images/
-│   ├── circuit.jpg
-│   ├── components.jpg
+│   ├── schemat.png
+│   ├── flow.png
 │   └── dashboard.png
 ```
 
@@ -247,7 +249,7 @@ W projekcie mogą być potrzebne biblioteki:
 
 ### 3. Sprawdzenie UID karty RFID
 
-Każda karta RFID ma własny identyfikator UID. Aby karta mogła otwierać sejf, jej UID musi zostać zapisany w kodzie Arduino jako autoryzowany identyfikator.
+Każda karta RFID ma własny identyfikator UID. Aby karta mogła otwierać zamek, jej UID musi zostać zapisany w kodzie Arduino jako autoryzowany identyfikator.
 
 Typowy proces:
 
@@ -290,7 +292,7 @@ Projekt można rozbudować o dodatkowe funkcje, na przykład:
 ---
 ## Wnioski
 
-SmartSafe Guardian pokazuje, jak z prostych komponentów Arduino można stworzyć działający system wbudowany. Projekt łączy kilka ważnych zagadnień:
+Smart Lock pokazuje, jak z prostych komponentów Arduino można stworzyć działający system wbudowany. Projekt łączy kilka ważnych zagadnień:
 
 * elektronikę,
 * programowanie mikrokontrolera,
@@ -319,3 +321,4 @@ Projekt wykonany na potrzeby przedmiotu **Systemy wbudowane**.
 
 ## Licencja
 Projekt może zostać udostępniony jako projekt edukacyjny.
+Licencja Creative Commons Zero (CC0)
