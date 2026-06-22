@@ -1,6 +1,5 @@
 // SmartSafe Guardian Dashboard - Processing
 // Panel SmartHome dla sejfu Arduino z RFID, czerwoną LED alarmową i buzzerem.
-// WAŻNE: zamknij Serial Monitor w Arduino IDE przed uruchomieniem Processing.
 
 import processing.serial.*;
 

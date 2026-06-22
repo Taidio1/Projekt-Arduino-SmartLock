@@ -4,12 +4,6 @@
 #include <MFRC522.h>
 #include <Servo.h>
 
-/*
-  WAŻNE:
-  Gdy działa aplikacja Processing, NIE otwieraj jednocześnie Serial Monitora w Arduino IDE.
-  Jeden port COM może być używany tylko przez jeden program naraz.
-*/
-
 // ===================== PINY =====================
 
 #define RST_PIN 9
