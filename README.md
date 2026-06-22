@@ -16,12 +16,9 @@ Celem projektu jest pokazanie, jak połączyć elektronikę, programowanie mikro
 * [Zastosowane technologie](#zastosowane-technologie)
 * [Wykorzystane komponenty](#wykorzystane-komponenty)
 * [Zasada działania](#zasada-działania)
-* [Stany systemu](#stany-systemu)
 * [Komunikacja Arduino ↔ Processing](#komunikacja-arduino--processing)
 * [Struktura repozytorium](#struktura-repozytorium)
 * [Uruchomienie projektu](#uruchomienie-projektu)
-* [Możliwe rozszerzenia](#możliwe-rozszerzenia)
-* [Uwagi bezpieczeństwa](#uwagi-bezpieczeństwa)
 * [Autor](#autor)
 
 ---
