@@ -306,7 +306,9 @@ Dzięki temu projekt dobrze pokazuje praktyczne zastosowanie systemów wbudowany
 
 ## Autor
 Kacper Łacniak
+
 Projekt wykonany na potrzeby przedmiotu **Systemy wbudowane**.
+
 
 **Uczelnia:** Uniwersytet Vizja w Warszawie
 **Projekt:** SmartSafe Guardian
